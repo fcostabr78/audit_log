@@ -1,0 +1,38 @@
+
+noreply@notification.us-ashburn-1.oraclecloud.com Cancelar inscrição
+08:38 (há 3 minutos)
+para mim
+
+{
+  "eventType" : "com.oraclecloud.objectstorage.createbucket",
+  "cloudEventsVersion" : "0.1",
+  "eventTypeVersion" : "2.0",
+  "source" : "ObjectStorage",
+  "eventTime" : "2020-07-22T11:38:07Z",
+  "contentType" : "application/json",
+  "data" : {
+    "compartmentId" : "ocid1.tenancy.oc1..aaaaaaaaqqzek25x6oc72fsf7pl5pxqipakzcual27u6db3njlq76p7jopna",
+    "compartmentName" : "victorkenzo",
+    "resourceName" : "bucket-20200722-0838",
+    "resourceId" : "/n/idsvh8rxij5e/b/",
+    "availabilityDomain" : "IAD-AD-3",
+    "freeformTags" : { },
+    "definedTags" : {
+      "Oracle-Tags" : {
+        "CreatedBy" : "oracleidentitycloudservice/victorkenzosc@gmail.com",
+        "CreatedOn" : "2020-07-22T11:38:07.097Z"
+      }
+    },
+    "additionalDetails" : {
+      "bucketName" : "bucket-20200722-0838",
+      "publicAccessType" : "NoPublicAccess",
+      "versioning" : "Disabled",
+      "namespace" : "idsvh8rxij5e",
+      "eTag" : "18e46f78-8e37-445a-8523-e77d18e5e7f1"
+    }
+  },
+  "eventID" : "26f57a36-bf7d-952c-1cac-5630116355e2",
+  "extensions" : {
+    "compartmentId" : "ocid1.tenancy.oc1..aaaaaaaaqqzek25x6oc72fsf7pl5pxqipakzcual27u6db3njlq76p7jopna"
+  }
+}
