@@ -19,6 +19,17 @@ https://docs.docker.com/engine/install/ubuntu/<br>
 https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm<br>
 https://docs.cloud.oracle.com/en-us/iaas/Content/Functions/Tasks/functionsinstallfncli.htm
 
+c1. Configurar no ambiente local o contexto: nele será especificado o provider (Oracle), a api_url, o registry e o compartmentID.<br>
+https://docs.cloud.oracle.com/en-us/iaas/Content/Functions/Tasks/functionscreatefncontext.htm
+
+```
+fn create context <context_name> --provider oracle
+fn use context <context_name>
+fn update context oracle.compartment-id <ocid>
+fn update context api-url https://functions.<region>.oraclecloud.com
+fn update context registry region/tenancy_name/repository_name
+```
+
 d. Criar Aplicação no Oracle Cloud
 Executar do passo 1 ao 7 de "Criar Aplicação" <br>
 https://docs.cloud.oracle.com/en-us/iaas/Content/Functions/Tasks/functionscreatingapps.htm
@@ -31,17 +42,6 @@ https://docs.cloud.oracle.com/en-us/iaas/Content/Functions/Tasks/functionscreati
         </tr>
     </tbody>
 </table>
-
-## Comandos básicos do Fn
-
-```
-fn list apps 
-fn list context 
-fn ls context 
-fn use context 
-fn delete context <name> 
-fn update context <property> <value>
-```
 
 ## Estrutura do Projeto<br>
 O projeto contempla 3 arquivos:<br><br>
