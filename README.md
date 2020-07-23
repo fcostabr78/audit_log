@@ -14,7 +14,7 @@ b. Criar o policy para o Dynamic Group
 Allow dynamic-group exemplo to manage all-resources IN TENANCY
 ```
 
-c. Configurar o ambiente local com o OCI CLI, Docker e Fn Function<br>
+c. Configurar o ambiente local com o OCI CLI, Docker e Fn Project CLI<br>
 https://docs.docker.com/engine/install/ubuntu/<br>
 https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm<br>
 https://docs.cloud.oracle.com/en-us/iaas/Content/Functions/Tasks/functionsinstallfncli.htm
