@@ -113,5 +113,5 @@ fn invoke <app-name> <function_name>
     </tbody>
 </table>
 
-
+<br>
 :question: :wave: :coffee: fernando.d.costa@oracle.com
